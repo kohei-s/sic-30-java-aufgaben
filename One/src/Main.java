@@ -10,9 +10,14 @@ public class Main {
         g.checkOddOrEven(101);
         g.checkOddOrEven(0);*/
 
-        DasEinmaleins d = new DasEinmaleins();
+       /* DasEinmaleins d = new DasEinmaleins();
         d.tables(1);
         d.tables(20);
-        d.tables(123);
+        d.tables(123);*/
+
+        MinimalZahlFinden m = new MinimalZahlFinden();
+        m.checkMinimal(1, 5);
+        m.checkMinimal(123, 121);
+        m.checkMinimal(99999, 123456);
     }
 }
