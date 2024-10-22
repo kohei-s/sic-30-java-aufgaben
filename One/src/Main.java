@@ -28,10 +28,15 @@ public class Main {
         f.factorial(5);
         f.factorial(10);*/
 
-        FakultaetBerechnen f2 = new FakultaetBerechnen();
+       /* FakultaetBerechnen f2 = new FakultaetBerechnen();
         System.out.println(f2.factorial(3));
         System.out.println(f2.factorial(5));
-        System.out.println(f2.factorial(10));
+        System.out.println(f2.factorial(10));*/
+
+        SummierenDerErstenNZahlen s = new SummierenDerErstenNZahlen();
+        s.sum(10);
+        s.sum(3);
+        s.sum(5);
 
     }
 }
