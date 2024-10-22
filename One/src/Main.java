@@ -38,10 +38,15 @@ public class Main {
         s.sum(3);
         s.sum(5);*/
 
-        UmgekehrteZahl u = new UmgekehrteZahl();
+        /*UmgekehrteZahl u = new UmgekehrteZahl();
         u.reverseNumber(123);
         u.reverseNumber(54321);
-        u.reverseNumber(987654321);
+        u.reverseNumber(987654321);*/
+
+        SchaltjahrPruefen s =new SchaltjahrPruefen();
+        s.islLeapYear(2020);
+        s.islLeapYear(2024);
+        s.islLeapYear(2022);
 
     }
 }
