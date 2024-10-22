@@ -33,10 +33,15 @@ public class Main {
         System.out.println(f2.factorial(5));
         System.out.println(f2.factorial(10));*/
 
-        SummierenDerErstenNZahlen s = new SummierenDerErstenNZahlen();
+        /*SummierenDerErstenNZahlen s = new SummierenDerErstenNZahlen();
         s.sum(10);
         s.sum(3);
-        s.sum(5);
+        s.sum(5);*/
+
+        UmgekehrteZahl u = new UmgekehrteZahl();
+        u.reverseNumber(123);
+        u.reverseNumber(54321);
+        u.reverseNumber(987654321);
 
     }
 }
