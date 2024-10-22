@@ -20,8 +20,18 @@ public class Main {
         m.checkMinimal(123, 121);
         m.checkMinimal(99999, 123456);*/
 
-        Quadratzahlen q = new Quadratzahlen();
-        q.squareNumber();
+        /*Quadratzahlen q = new Quadratzahlen();
+        q.squareNumber();*/
+
+       /* FakultaetBerechnen f = new FakultaetBerechnen();
+        f.factorial(3);
+        f.factorial(5);
+        f.factorial(10);*/
+
+        FakultaetBerechnen f2 = new FakultaetBerechnen();
+        System.out.println(f2.factorial(3));
+        System.out.println(f2.factorial(5));
+        System.out.println(f2.factorial(10));
 
     }
 }
