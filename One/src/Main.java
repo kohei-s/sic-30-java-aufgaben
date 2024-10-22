@@ -15,9 +15,13 @@ public class Main {
         d.tables(20);
         d.tables(123);*/
 
-        MinimalZahlFinden m = new MinimalZahlFinden();
+        /*MinimalZahlFinden m = new MinimalZahlFinden();
         m.checkMinimal(1, 5);
         m.checkMinimal(123, 121);
-        m.checkMinimal(99999, 123456);
+        m.checkMinimal(99999, 123456);*/
+
+        Quadratzahlen q = new Quadratzahlen();
+        q.squareNumber();
+
     }
 }
