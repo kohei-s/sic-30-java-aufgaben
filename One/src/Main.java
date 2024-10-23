@@ -98,11 +98,18 @@ public class Main {
         System.out.println(fbmr.factorial(9));
         System.out.println(fbmr.factorial(3));*/
 
-        PalindromePruefen p = new PalindromePruefen();
+        /*PalindromePruefen p = new PalindromePruefen();
         p.isPalindrome("Abbba");
         p.isPalindrome("cfgdjs");
         p.isPalindrome("lksjd");
-        p.isPalindrome("12321");
+        p.isPalindrome("12321");*/
+
+        ZahlenRaten z = new ZahlenRaten();
+        z.guessNumber(8);
+        z.guessNumber(5);
+        z.guessNumber(3);
+        z.guessNumber(4);
+        z.guessNumber(1);
 
     }
 }
