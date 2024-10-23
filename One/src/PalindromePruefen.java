@@ -4,6 +4,6 @@ public class PalindromePruefen {
         StringBuilder sb = new StringBuilder(word);
         sb.reverse();
 
-        System.out.println(word + " is " + (!(word.toLowerCase().equals(sb.toString().toLowerCase()))? "not" : "") + " a palindrome");
+        System.out.println(word + " is " + (!(word.equalsIgnoreCase(sb.toString()))? "not" : "") + " a palindrome");
     }
 }
