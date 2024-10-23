@@ -60,11 +60,17 @@ public class Main {
         s.sum(10);
         s.sum(7);*/
 
-        VokalenZaehlen v = new VokalenZaehlen();
+        /*VokalenZaehlen v = new VokalenZaehlen();
         v.isVowel("aeiu");
         v.isVowel("KJLor");
         v.isVowel("LBVCXA");
-        v.isVowel("ljhTgfdsOp");
+        v.isVowel("ljhTgfdsOp");*/
+
+        ZahlenreiheAusgeben z = new ZahlenreiheAusgeben();
+        z.numbers(35);
+        z.numbers(10);
+        z.numbers(4);
+        z.numbers(8);
 
     }
 }
