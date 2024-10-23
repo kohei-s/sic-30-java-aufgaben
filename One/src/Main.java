@@ -117,9 +117,15 @@ public class Main {
         g.highestCommonFactor(17, 51);
         g.highestCommonFactor(32, 96);*/
 
-        KleinsterGemeinsamerVielfaches k = new KleinsterGemeinsamerVielfaches();
+        /*KleinsterGemeinsamerVielfaches k = new KleinsterGemeinsamerVielfaches();
         k.leastCommonMultiple(2, 3);
-        k.leastCommonMultiple(6, 10);
+        k.leastCommonMultiple(6, 10);*/
+
+        ZahlenSortieren zs = new ZahlenSortieren();
+        zs.sortNumbers(100, 300, 200);
+        zs.sortNumbers(1000, 300, 200);
+        zs.sortNumbers(100, 30, 200);
+        zs.sortNumbers(15, 15, 15);
 
     }
 }
