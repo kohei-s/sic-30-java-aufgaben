@@ -81,11 +81,16 @@ public class Main {
         /*Multiplikationstabelle m = new Multiplikationstabelle();
         m.multiplicationTable();*/
 
-        GroesseVonDreiZahlen g = new GroesseVonDreiZahlen();
+        /*GroesseVonDreiZahlen g = new GroesseVonDreiZahlen();
         g.maxNumber(1,2,3);
         g.maxNumber(5,9,2);
         g.maxNumber(123,23,3);
-        g.maxNumber(38,200,35);
+        g.maxNumber(38,200,35);*/
+
+        RechteckAusSternen rechteck = new RechteckAusSternen();
+        rechteck.rectangle(1,5);
+        rechteck.rectangle(3,5);
+        rechteck.rectangle(5,10);
 
     }
 }
