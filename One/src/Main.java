@@ -48,11 +48,17 @@ public class Main {
         s.islLeapYear(2024);
         s.islLeapYear(2022);*/
 
-        PrimazahlPruefen p = new PrimazahlPruefen();
+        /*PrimazahlPruefen p = new PrimazahlPruefen();
         p.isPrimal(2);
         p.isPrimal(3);
         p.isPrimal(7);
-        p.isPrimal(20);
+        p.isPrimal(20);*/
+
+        SummeVonGeradenZahlen s = new SummeVonGeradenZahlen();
+        s.sum(20);
+        s.sum(2);
+        s.sum(10);
+        s.sum(7);
 
     }
 }
