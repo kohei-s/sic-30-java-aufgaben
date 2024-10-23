@@ -72,11 +72,14 @@ public class Main {
         z.numbers(4);
         z.numbers(8);*/
 
-        FibonacciFolge f = new FibonacciFolge();
+        /*FibonacciFolge f = new FibonacciFolge();
         f.fibonacci(20);
         f.fibonacci(5);
         f.fibonacci(35);
-        f.fibonacci(9);
+        f.fibonacci(9);*/
+
+        Multiplikationstabelle m = new Multiplikationstabelle();
+        m.multiplicationTable();
 
     }
 }
