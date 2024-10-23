@@ -121,11 +121,14 @@ public class Main {
         k.leastCommonMultiple(2, 3);
         k.leastCommonMultiple(6, 10);*/
 
-        ZahlenSortieren zs = new ZahlenSortieren();
+       /* ZahlenSortieren zs = new ZahlenSortieren();
         zs.sortNumbers(100, 300, 200);
         zs.sortNumbers(1000, 300, 200);
         zs.sortNumbers(100, 30, 200);
-        zs.sortNumbers(15, 15, 15);
+        zs.sortNumbers(15, 15, 15);*/
+
+        ZinseszinsBerechnen z = new ZinseszinsBerechnen();
+        z.compoundInterest(1200, 5.4, 2);
 
     }
 }
