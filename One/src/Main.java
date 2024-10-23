@@ -92,11 +92,17 @@ public class Main {
         rechteck.rectangle(3,5);
         rechteck.rectangle(5,10);*/
 
-        FaktorielleBerechnungMitRekursion fbmr = new FaktorielleBerechnungMitRekursion();
+        /*FaktorielleBerechnungMitRekursion fbmr = new FaktorielleBerechnungMitRekursion();
         System.out.println(fbmr.factorial(10));
         System.out.println(fbmr.factorial(5));
         System.out.println(fbmr.factorial(9));
-        System.out.println(fbmr.factorial(3));
+        System.out.println(fbmr.factorial(3));*/
+
+        PalindromePruefen p = new PalindromePruefen();
+        p.isPalindrome("Abbba");
+        p.isPalindrome("cfgdjs");
+        p.isPalindrome("lksjd");
+        p.isPalindrome("12321");
 
     }
 }
