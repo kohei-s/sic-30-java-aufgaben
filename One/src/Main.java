@@ -104,12 +104,18 @@ public class Main {
         p.isPalindrome("lksjd");
         p.isPalindrome("12321");*/
 
-        ZahlenRaten z = new ZahlenRaten();
+        /*ZahlenRaten z = new ZahlenRaten();
         z.guessNumber(8);
         z.guessNumber(5);
         z.guessNumber(3);
         z.guessNumber(4);
-        z.guessNumber(1);
+        z.guessNumber(1);*/
+
+        GroessterGemeinsamerTeiler g = new GroessterGemeinsamerTeiler();
+        g.highestCommonFactor(12, 30);
+        g.highestCommonFactor(2, 8);
+        g.highestCommonFactor(17, 51);
+        g.highestCommonFactor(32, 96);
 
     }
 }
