@@ -78,8 +78,14 @@ public class Main {
         f.fibonacci(35);
         f.fibonacci(9);*/
 
-        Multiplikationstabelle m = new Multiplikationstabelle();
-        m.multiplicationTable();
+        /*Multiplikationstabelle m = new Multiplikationstabelle();
+        m.multiplicationTable();*/
+
+        GroesseVonDreiZahlen g = new GroesseVonDreiZahlen();
+        g.maxNumber(1,2,3);
+        g.maxNumber(5,9,2);
+        g.maxNumber(123,23,3);
+        g.maxNumber(38,200,35);
 
     }
 }
