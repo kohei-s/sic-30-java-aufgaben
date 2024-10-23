@@ -150,12 +150,17 @@ public class Main {
         zu.reverseArray(nums2);
         zu.reverseArray(nums3);*/
 
-        RoemischeZahlenUmwandeln rz = new RoemischeZahlenUmwandeln();
+        /*RoemischeZahlenUmwandeln rz = new RoemischeZahlenUmwandeln();
         rz.romanNumeral(36);
         rz.romanNumeral(125);
         rz.romanNumeral(252);
         rz.romanNumeral(1000);
-        rz.romanNumeral(1010);
+        rz.romanNumeral(1010);*/
+
+        Temperaturumrechnung tu = new Temperaturumrechnung();
+        tu.convertCelsiusAndFahrenheit(25, "celsius");
+        tu.convertCelsiusAndFahrenheit(125, "fahrenheit");
+        tu.convertCelsiusAndFahrenheit(75, "celsius");
 
 
     }
