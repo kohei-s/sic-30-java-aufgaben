@@ -54,11 +54,17 @@ public class Main {
         p.isPrimal(7);
         p.isPrimal(20);*/
 
-        SummeVonGeradenZahlen s = new SummeVonGeradenZahlen();
+        /*SummeVonGeradenZahlen s = new SummeVonGeradenZahlen();
         s.sum(20);
         s.sum(2);
         s.sum(10);
-        s.sum(7);
+        s.sum(7);*/
+
+        VokalenZaehlen v = new VokalenZaehlen();
+        v.isVowel("aeiu");
+        v.isVowel("KJLor");
+        v.isVowel("LBVCXA");
+        v.isVowel("ljhTgfdsOp");
 
     }
 }
