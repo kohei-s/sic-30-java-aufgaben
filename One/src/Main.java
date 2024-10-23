@@ -134,10 +134,13 @@ public class Main {
         int[] nums = {1,2,3,4,5};
         db.mean(nums);*/
 
-        Wuerfeln w = new Wuerfeln();
+        /*Wuerfeln w = new Wuerfeln();
         w.rollDice();
         w.rollDice();
-        w.rollDice();
+        w.rollDice();*/
+
+        Zeichenzaehlung z = new Zeichenzaehlung();
+        z.countCharacters("abc def ghi, jkl-mn o.");
 
 
     }
