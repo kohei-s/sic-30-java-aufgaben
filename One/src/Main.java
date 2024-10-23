@@ -43,10 +43,16 @@ public class Main {
         u.reverseNumber(54321);
         u.reverseNumber(987654321);*/
 
-        SchaltjahrPruefen s =new SchaltjahrPruefen();
+        /*SchaltjahrPruefen s =new SchaltjahrPruefen();
         s.islLeapYear(2020);
         s.islLeapYear(2024);
-        s.islLeapYear(2022);
+        s.islLeapYear(2022);*/
+
+        PrimazahlPruefen p = new PrimazahlPruefen();
+        p.isPrimal(2);
+        p.isPrimal(3);
+        p.isPrimal(7);
+        p.isPrimal(20);
 
     }
 }

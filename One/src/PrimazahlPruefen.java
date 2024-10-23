@@ -1,0 +1,21 @@
+public class PrimazahlPruefen {
+
+    public void isPrimal(int number) {
+
+        boolean result = true;
+
+        if (number == 0 || number == 1) {
+            result = false;
+        } else {
+            for (int i = 2; i < number/2; i++) {
+                if (number % i == 0) {
+                    result = false;
+                    break;
+                }
+            }
+        }
+
+        System.out.println(((!result)? "Not p": "P") + "rimal");
+
+    }
+}
