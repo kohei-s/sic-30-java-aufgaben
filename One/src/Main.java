@@ -111,11 +111,15 @@ public class Main {
         z.guessNumber(4);
         z.guessNumber(1);*/
 
-        GroessterGemeinsamerTeiler g = new GroessterGemeinsamerTeiler();
+        /*GroessterGemeinsamerTeiler g = new GroessterGemeinsamerTeiler();
         g.highestCommonFactor(12, 30);
         g.highestCommonFactor(2, 8);
         g.highestCommonFactor(17, 51);
-        g.highestCommonFactor(32, 96);
+        g.highestCommonFactor(32, 96);*/
+
+        KleinsterGemeinsamerVielfaches k = new KleinsterGemeinsamerVielfaches();
+        k.leastCommonMultiple(2, 3);
+        k.leastCommonMultiple(6, 10);
 
     }
 }

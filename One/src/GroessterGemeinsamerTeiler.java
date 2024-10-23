@@ -1,6 +1,6 @@
 public class GroessterGemeinsamerTeiler {
     public void highestCommonFactor(int a, int b) {
-        int result = 1;
+       int result = 1;
 
         int smallerNumber;
         if (a < b) {
