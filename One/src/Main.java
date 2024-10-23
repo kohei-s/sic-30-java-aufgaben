@@ -130,9 +130,15 @@ public class Main {
         /*ZinseszinsBerechnen z = new ZinseszinsBerechnen();
         z.compoundInterest(1200, 5.4, 2);*/
 
-        DurchschnittBerechnen db = new DurchschnittBerechnen();
+        /*DurchschnittBerechnen db = new DurchschnittBerechnen();
         int[] nums = {1,2,3,4,5};
-        db.mean(nums);
+        db.mean(nums);*/
+
+        Wuerfeln w = new Wuerfeln();
+        w.rollDice();
+        w.rollDice();
+        w.rollDice();
+
 
     }
 }
