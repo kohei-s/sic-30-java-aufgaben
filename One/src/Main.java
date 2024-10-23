@@ -142,13 +142,20 @@ public class Main {
         /*Zeichenzaehlung z = new Zeichenzaehlung();
         z.countCharacters("abc def ghi, jkl-mn o.");*/
 
-        ZahlenfolgeUmdrehen zu = new ZahlenfolgeUmdrehen();
+        /*ZahlenfolgeUmdrehen zu = new ZahlenfolgeUmdrehen();
         int[] nums1 = {1,2,3,4,5};
         int[] nums2 = {1,5,4,3,2};
         int[] nums3 = {3,2,1,5,4};
         zu.reverseArray(nums1);
         zu.reverseArray(nums2);
-        zu.reverseArray(nums3);
+        zu.reverseArray(nums3);*/
+
+        RoemischeZahlenUmwandeln rz = new RoemischeZahlenUmwandeln();
+        rz.romanNumeral(36);
+        rz.romanNumeral(125);
+        rz.romanNumeral(252);
+        rz.romanNumeral(1000);
+        rz.romanNumeral(1010);
 
 
     }
