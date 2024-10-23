@@ -87,10 +87,16 @@ public class Main {
         g.maxNumber(123,23,3);
         g.maxNumber(38,200,35);*/
 
-        RechteckAusSternen rechteck = new RechteckAusSternen();
+        /*RechteckAusSternen rechteck = new RechteckAusSternen();
         rechteck.rectangle(1,5);
         rechteck.rectangle(3,5);
-        rechteck.rectangle(5,10);
+        rechteck.rectangle(5,10);*/
+
+        FaktorielleBerechnungMitRekursion fbmr = new FaktorielleBerechnungMitRekursion();
+        System.out.println(fbmr.factorial(10));
+        System.out.println(fbmr.factorial(5));
+        System.out.println(fbmr.factorial(9));
+        System.out.println(fbmr.factorial(3));
 
     }
 }
