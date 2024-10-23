@@ -66,11 +66,17 @@ public class Main {
         v.isVowel("LBVCXA");
         v.isVowel("ljhTgfdsOp");*/
 
-        ZahlenreiheAusgeben z = new ZahlenreiheAusgeben();
+        /*ZahlenreiheAusgeben z = new ZahlenreiheAusgeben();
         z.numbers(35);
         z.numbers(10);
         z.numbers(4);
-        z.numbers(8);
+        z.numbers(8);*/
+
+        FibonacciFolge f = new FibonacciFolge();
+        f.fibonacci(20);
+        f.fibonacci(5);
+        f.fibonacci(35);
+        f.fibonacci(9);
 
     }
 }
