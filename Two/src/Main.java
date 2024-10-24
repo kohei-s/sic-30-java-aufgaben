@@ -54,8 +54,12 @@ public class Main {
         /*HaeufigsteBuchstabenZaehlen hbz = new HaeufigsteBuchstabenZaehlen();
         hbz.findFrequentLetter("Apple Orange Banana Lemon");*/
 
-        WortMitDenMeistenBuchstaben w = new WortMitDenMeistenBuchstaben();
-        w.findLongestWord("Apple Orange Banana Lemon");
+        /*WortMitDenMeistenBuchstaben w = new WortMitDenMeistenBuchstaben();
+        w.findLongestWord("Apple Orange Banana Lemon");*/
+
+        PlagiateErkennen pe = new PlagiateErkennen();
+        pe.detectPlagiarism("Apple Orange Banana Lemon",
+                "Apple Orange Banana Lemon Watermelon Cherry");
 
 
 
