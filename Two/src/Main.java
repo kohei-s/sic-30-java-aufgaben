@@ -14,8 +14,15 @@ public class Main {
         /*WoerterTrennen wt = new WoerterTrennen();
         wt.separateCharacters("testtesttest");*/
 
-        WoerterRueckwaertsAusgeben wra = new WoerterRueckwaertsAusgeben();
+        /*WoerterRueckwaertsAusgeben wra = new WoerterRueckwaertsAusgeben();
         wra.reverseWord("Abcdefg");
-        wra.reverseWord("87zhekiHGFpl");
+        wra.reverseWord("87zhekiHGFpl");*/
+
+        PlatzhalterErsetzen pe = new PlatzhalterErsetzen();
+        pe.placeholder("[Name] is 20 Jahre alt.", "Max");
+        pe.placeholder("Das gehört zu [Name].", "Maria");
+        pe.placeholder("Ich habe [Name] angerufen.", "Moritz");
+
+
     }
 }
