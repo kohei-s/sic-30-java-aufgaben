@@ -1,6 +1,6 @@
 public class SatzAnalysieren {
     public void analyseText (String text) {
-        int wordCount = 0, letterCount = 0, sentenceCount = 0;
+        int wordCount, letterCount, sentenceCount;
         letterCount = text.length();
         String[] words = text.split(" ");
         wordCount = words.length;
