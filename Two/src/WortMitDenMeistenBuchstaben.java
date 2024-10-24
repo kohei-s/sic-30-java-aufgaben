@@ -13,6 +13,6 @@ public class WortMitDenMeistenBuchstaben {
                 sb.append(" ").append(word);
             }
         }
-        System.out.println(sb.toString());
+        System.out.println(sb);
     }
 }
