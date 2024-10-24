@@ -32,7 +32,10 @@ public class Main {
         /*AnagrammePruefen ap = new AnagrammePruefen();
         ap.isAnagram("abcdfe", "BaCFeD");*/
 
-        VokaleEntfernen ve = new VokaleEntfernen();
-        ve.removeVowel("Es gab auf dem Platz viele Leute.");
+        /*VokaleEntfernen ve = new VokaleEntfernen();
+        ve.removeVowel("Es gab auf dem Platz viele Leute.");*/
+
+        InitialenEinesNamens ien  = new InitialenEinesNamens();
+        ien.initialLetter("Max Mustermann");
     }
 }

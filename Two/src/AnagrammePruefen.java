@@ -1,5 +1,4 @@
 import java.util.Arrays;
-
 public class AnagrammePruefen {
     public void isAnagram(String a, String b) {
         int len1 = a.length();
