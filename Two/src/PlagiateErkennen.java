@@ -12,7 +12,6 @@ public class PlagiateErkennen {
                 }
             }
         }
-
         int matchRate = (int)((countMatch/length) * 100);
         System.out.println((matchRate >= similarityThreshold? "" : "Not ") + "a plagiarism");
     }

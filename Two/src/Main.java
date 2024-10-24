@@ -57,9 +57,10 @@ public class Main {
         /*WortMitDenMeistenBuchstaben w = new WortMitDenMeistenBuchstaben();
         w.findLongestWord("Apple Orange Banana Lemon");*/
 
-        PlagiateErkennen pe = new PlagiateErkennen();
+        /*PlagiateErkennen pe = new PlagiateErkennen();
         pe.detectPlagiarism("Apple Orange Banana Lemon",
-                "Apple Orange Banana Lemon Watermelon Cherry");
+                "Apple Orange Banana Lemon Watermelon Cherry");*/
+
 
 
 

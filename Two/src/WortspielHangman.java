@@ -4,7 +4,7 @@ public class WortspielHangman {
     public void hangman(String guess) {
         String[] words = {"apple", "banana", "lemon", "orange", "watermelon"};
         Random rand = new Random();
-        String answer = words[rand.nextInt(words.length) -1];
+        String answer = words[rand.nextInt(words.length)];
         if (answer.equals(guess)) {
             System.out.println("You guessed correctly!");
         } else {
