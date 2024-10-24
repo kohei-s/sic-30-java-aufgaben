@@ -42,7 +42,11 @@ public class Main {
         String[] words = {"apple", "banana", "orange"};
         zww.randomWord(words);*/
 
-        PalindromeInEinemTextFinden pietf = new PalindromeInEinemTextFinden();
-        pietf.findPalindrome("Abcba kjhdl ajhThja, skvmghsj Jghzstebetszhgj.");
+        /*PalindromeInEinemTextFinden pietf = new PalindromeInEinemTextFinden();
+        pietf.findPalindrome("Abcba kjhdl ajhThja, skvmghsj Jghzstebetszhgj.");*/
+
+        WoerterAlphabetischSortieren was  = new WoerterAlphabetischSortieren();
+        was.sortWords("Apple Orange Banana Lemon");
+
     }
 }
