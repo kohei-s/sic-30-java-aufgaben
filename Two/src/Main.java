@@ -26,7 +26,10 @@ public class Main {
         /*ZaehlungVonBestimmtenWoertern zvbw = new ZaehlungVonBestimmtenWoertern();
         zvbw.countWord("Heute ist Donnerstag. Morgen ist Freitag.");*/
 
-        SatzInPigLatinUmwandeln spu = new SatzInPigLatinUmwandeln();
-        spu.translateToPigLatin("Heute ist Donnerstag. Morgen ist Freitag.");
+        /*SatzInPigLatinUmwandeln spu = new SatzInPigLatinUmwandeln();
+        spu.translateToPigLatin("Heute ist Donnerstag. Morgen ist Freitag.");*/
+
+        AnagrammePruefen ap = new AnagrammePruefen();
+        ap.isAnagram("abcdfe", "BaCFeD");
     }
 }
