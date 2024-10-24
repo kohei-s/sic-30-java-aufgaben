@@ -64,9 +64,13 @@ public class Main {
         /*ZeilenumbruchHinzufuegen zh = new ZeilenumbruchHinzufuegen();
         zh.lineBreak("ab sch sjn amsd fme skdnee mkgled jefie aksnde aj djeken her fgetsj");*/
 
-        SatzAnalysieren satz = new SatzAnalysieren();
+        /*SatzAnalysieren satz = new SatzAnalysieren();
         String test = "test test. test test";
-        satz.analyseText(test);
+        satz.analyseText(test);*/
+
+        SonderzeichenEntfernen se = new SonderzeichenEntfernen();
+        String test = "test test. test test +++# ??? %$§ bhgd(/) &%!";
+        se.removeSpecialCharacters(test);
 
 
 
