@@ -48,8 +48,13 @@ public class Main {
         /*WoerterAlphabetischSortieren was  = new WoerterAlphabetischSortieren();
         was.sortWords("Apple Orange Banana Lemon");*/
 
-        WoerterMitEinerBestimmtenLaenge wmebl = new WoerterMitEinerBestimmtenLaenge();
-        wmebl.findWords("Apple Orange Banana Lemon", 5);
+        /*WoerterMitEinerBestimmtenLaenge wmebl = new WoerterMitEinerBestimmtenLaenge();
+        wmebl.findWords("Apple Orange Banana Lemon", 5);*/
+
+        HaeufigsteBuchstabenZaehlen hbz = new HaeufigsteBuchstabenZaehlen();
+        hbz.findFrequentLetter("Apple Orange Banana Lemon");
+
+
 
     }
 }
