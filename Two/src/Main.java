@@ -18,11 +18,12 @@ public class Main {
         wra.reverseWord("Abcdefg");
         wra.reverseWord("87zhekiHGFpl");*/
 
-        PlatzhalterErsetzen pe = new PlatzhalterErsetzen();
+        /*PlatzhalterErsetzen pe = new PlatzhalterErsetzen();
         pe.placeholder("[Name] is 20 Jahre alt.", "Max");
         pe.placeholder("Das gehört zu [Name].", "Maria");
-        pe.placeholder("Ich habe [Name] angerufen.", "Moritz");
+        pe.placeholder("Ich habe [Name] angerufen.", "Moritz");*/
 
-
+        ZaehlungVonBestimmtenWoertern zvbw = new ZaehlungVonBestimmtenWoertern();
+        zvbw.countWord("Heute ist Donnerstag. Morgen ist Freitag.");
     }
 }
