@@ -11,7 +11,11 @@ public class Main {
         z.changeCase("kgjshTrfsHHHJ");
         z.changeCase("42ezhJ78KO");*/
 
-        WoerterTrennen wt = new WoerterTrennen();
-        wt.separateCharacters("testtesttest");
+        /*WoerterTrennen wt = new WoerterTrennen();
+        wt.separateCharacters("testtesttest");*/
+
+        WoerterRueckwaertsAusgeben wra = new WoerterRueckwaertsAusgeben();
+        wra.reverseWord("Abcdefg");
+        wra.reverseWord("87zhekiHGFpl");
     }
 }
