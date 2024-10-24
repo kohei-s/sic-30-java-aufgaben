@@ -1,5 +1,5 @@
 public class WortlaengeZaehlen {
-    public void coountCharacter (String word) {
+    public void countCharacter(String word) {
 //        int count = word.length();
         char[] characters = word.toCharArray();
         int count = 0;

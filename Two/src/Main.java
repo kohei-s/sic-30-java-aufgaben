@@ -51,8 +51,11 @@ public class Main {
         /*WoerterMitEinerBestimmtenLaenge wmebl = new WoerterMitEinerBestimmtenLaenge();
         wmebl.findWords("Apple Orange Banana Lemon", 5);*/
 
-        HaeufigsteBuchstabenZaehlen hbz = new HaeufigsteBuchstabenZaehlen();
-        hbz.findFrequentLetter("Apple Orange Banana Lemon");
+        /*HaeufigsteBuchstabenZaehlen hbz = new HaeufigsteBuchstabenZaehlen();
+        hbz.findFrequentLetter("Apple Orange Banana Lemon");*/
+
+        WortMitDenMeistenBuchstaben w = new WortMitDenMeistenBuchstaben();
+        w.findLongestWord("Apple Orange Banana Lemon");
 
 
 
