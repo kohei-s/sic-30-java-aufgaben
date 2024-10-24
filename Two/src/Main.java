@@ -29,7 +29,10 @@ public class Main {
         /*SatzInPigLatinUmwandeln spu = new SatzInPigLatinUmwandeln();
         spu.translateToPigLatin("Heute ist Donnerstag. Morgen ist Freitag.");*/
 
-        AnagrammePruefen ap = new AnagrammePruefen();
-        ap.isAnagram("abcdfe", "BaCFeD");
+        /*AnagrammePruefen ap = new AnagrammePruefen();
+        ap.isAnagram("abcdfe", "BaCFeD");*/
+
+        VokaleEntfernen ve = new VokaleEntfernen();
+        ve.removeVowel("Es gab auf dem Platz viele Leute.");
     }
 }
