@@ -38,8 +38,11 @@ public class Main {
         /*InitialenEinesNamens ien  = new InitialenEinesNamens();
         ien.initialLetter("Max Mustermann");*/
 
-        ZufaelligesWortWaehlen zww = new ZufaelligesWortWaehlen();
+        /*ZufaelligesWortWaehlen zww = new ZufaelligesWortWaehlen();
         String[] words = {"apple", "banana", "orange"};
-        zww.randomWord(words);
+        zww.randomWord(words);*/
+
+        PalindromeInEinemTextFinden pietf = new PalindromeInEinemTextFinden();
+        pietf.findPalindrome("Abcba kjhdl ajhThja, skvmghsj Jghzstebetszhgj.");
     }
 }
