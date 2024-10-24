@@ -35,7 +35,11 @@ public class Main {
         /*VokaleEntfernen ve = new VokaleEntfernen();
         ve.removeVowel("Es gab auf dem Platz viele Leute.");*/
 
-        InitialenEinesNamens ien  = new InitialenEinesNamens();
-        ien.initialLetter("Max Mustermann");
+        /*InitialenEinesNamens ien  = new InitialenEinesNamens();
+        ien.initialLetter("Max Mustermann");*/
+
+        ZufaelligesWortWaehlen zww = new ZufaelligesWortWaehlen();
+        String[] words = {"apple", "banana", "orange"};
+        zww.randomWord(words);
     }
 }
