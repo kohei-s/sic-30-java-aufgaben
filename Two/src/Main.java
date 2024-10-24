@@ -61,7 +61,8 @@ public class Main {
         pe.detectPlagiarism("Apple Orange Banana Lemon",
                 "Apple Orange Banana Lemon Watermelon Cherry");*/
 
-
+        ZeilenumbruchHinzufuegen zh = new ZeilenumbruchHinzufuegen();
+        zh.lineBreak("ab sch sjn amsd fme skdnee mkgled jefie aksnde aj djeken her fgetsj");
 
 
     }
