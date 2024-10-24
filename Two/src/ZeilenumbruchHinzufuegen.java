@@ -8,7 +8,6 @@ public class ZeilenumbruchHinzufuegen {
                 sb.append(words[i]);
                 sb.append(" ");
                 wordCount++;
-                continue;
             } else if (wordCount == 5) {
                 sb.append("\n");
                 sb.append(words[i]);
