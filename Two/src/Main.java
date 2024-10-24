@@ -23,7 +23,10 @@ public class Main {
         pe.placeholder("Das gehört zu [Name].", "Maria");
         pe.placeholder("Ich habe [Name] angerufen.", "Moritz");*/
 
-        ZaehlungVonBestimmtenWoertern zvbw = new ZaehlungVonBestimmtenWoertern();
-        zvbw.countWord("Heute ist Donnerstag. Morgen ist Freitag.");
+        /*ZaehlungVonBestimmtenWoertern zvbw = new ZaehlungVonBestimmtenWoertern();
+        zvbw.countWord("Heute ist Donnerstag. Morgen ist Freitag.");*/
+
+        SatzInPigLatinUmwandeln spu = new SatzInPigLatinUmwandeln();
+        spu.translateToPigLatin("Heute ist Donnerstag. Morgen ist Freitag.");
     }
 }
