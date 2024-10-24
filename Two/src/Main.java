@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -61,8 +63,13 @@ public class Main {
         pe.detectPlagiarism("Apple Orange Banana Lemon",
                 "Apple Orange Banana Lemon Watermelon Cherry");*/
 
-        ZeilenumbruchHinzufuegen zh = new ZeilenumbruchHinzufuegen();
-        zh.lineBreak("ab sch sjn amsd fme skdnee mkgled jefie aksnde aj djeken her fgetsj");
+        /*ZeilenumbruchHinzufuegen zh = new ZeilenumbruchHinzufuegen();
+        zh.lineBreak("ab sch sjn amsd fme skdnee mkgled jefie aksnde aj djeken her fgetsj");*/
+
+        SatzAnalysieren satz = new SatzAnalysieren();
+        String test = "test test. test test";
+        satz.analyseText(test);
+
 
 
     }
