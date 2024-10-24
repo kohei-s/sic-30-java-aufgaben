@@ -45,8 +45,11 @@ public class Main {
         /*PalindromeInEinemTextFinden pietf = new PalindromeInEinemTextFinden();
         pietf.findPalindrome("Abcba kjhdl ajhThja, skvmghsj Jghzstebetszhgj.");*/
 
-        WoerterAlphabetischSortieren was  = new WoerterAlphabetischSortieren();
-        was.sortWords("Apple Orange Banana Lemon");
+        /*WoerterAlphabetischSortieren was  = new WoerterAlphabetischSortieren();
+        was.sortWords("Apple Orange Banana Lemon");*/
+
+        WoerterMitEinerBestimmtenLaenge wmebl = new WoerterMitEinerBestimmtenLaenge();
+        wmebl.findWords("Apple Orange Banana Lemon", 5);
 
     }
 }
