@@ -72,10 +72,14 @@ public class Main {
         String test = "test test. test test +++# ??? %$§ bhgd(/) &%!";
         se.removeSpecialCharacters(test);*/
 
-        AbkuerzungenErkennen ae = new AbkuerzungenErkennen();
-        ae.findAbbreviation("The U.S.A. is different from NASA and F.B.I. but not from e.g. or i.e.");
+        /*AbkuerzungenErkennen ae = new AbkuerzungenErkennen();
+        ae.findAbbreviation("The U.S.A. is different from NASA and F.B.I. but not from e.g. or i.e.");*/
 
-
+        WortanfaengeSuchen w = new WortanfaengeSuchen();
+        String test = "The U.S.A. is different from NASA and F.B.I. but not from e.g. or i.e.";
+        w.findWordStartWithParticularLetter(test, "a");
+        w.findWordStartWithParticularLetter(test, "n");
+        w.findWordStartWithParticularLetter(test, "f");
 
     }
 }
