@@ -68,9 +68,12 @@ public class Main {
         String test = "test test. test test";
         satz.analyseText(test);*/
 
-        SonderzeichenEntfernen se = new SonderzeichenEntfernen();
+        /*SonderzeichenEntfernen se = new SonderzeichenEntfernen();
         String test = "test test. test test +++# ??? %$§ bhgd(/) &%!";
-        se.removeSpecialCharacters(test);
+        se.removeSpecialCharacters(test);*/
+
+        AbkuerzungenErkennen ae = new AbkuerzungenErkennen();
+        ae.findAbbreviation("The U.S.A. is different from NASA and F.B.I. but not from e.g. or i.e.");
 
 
 
