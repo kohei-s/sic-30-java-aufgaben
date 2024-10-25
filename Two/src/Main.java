@@ -85,8 +85,13 @@ public class Main {
         String test = "The U.S.A. is <div> different from NASA <p> and F.B.I. but </p> not from e.g. or i.e.";
         hte.removeHTMLTag(test);*/
 
-        TextersetzungInSaetzen tis = new TextersetzungInSaetzen();
-        tis.replaceWords("Ich bin gestern zum Zahnarzt gegangen. Ich gehe morgen nochmals dahin.");
+        /*TextersetzungInSaetzen tis = new TextersetzungInSaetzen();
+        tis.replaceWords("Ich bin gestern zum Zahnarzt gegangen. Ich gehe morgen nochmals dahin.");*/
+
+        SynonymeFinden sf = new SynonymeFinden();
+        sf.findSynonym("a");
+        sf.findSynonym("b");
+        sf.findSynonym("c");
 
     }
 }
