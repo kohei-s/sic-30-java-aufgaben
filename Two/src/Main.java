@@ -81,9 +81,12 @@ public class Main {
         w.findWordStartWithParticularLetter(test, "n");
         w.findWordStartWithParticularLetter(test, "f");*/
 
-        HTMLTagEntfernen hte = new HTMLTagEntfernen();
+        /*HTMLTagEntfernen hte = new HTMLTagEntfernen();
         String test = "The U.S.A. is <div> different from NASA <p> and F.B.I. but </p> not from e.g. or i.e.";
-        hte.removeHTMLTag(test);
+        hte.removeHTMLTag(test);*/
+
+        TextersetzungInSaetzen tis = new TextersetzungInSaetzen();
+        tis.replaceWords("Ich bin gestern zum Zahnarzt gegangen. Ich gehe morgen nochmals dahin.");
 
     }
 }
