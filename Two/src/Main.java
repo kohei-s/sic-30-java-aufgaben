@@ -93,10 +93,13 @@ public class Main {
         sf.findSynonym("b");
         sf.findSynonym("c");*/
 
-        WortlaengeVergleichen w = new WortlaengeVergleichen();
+        /*WortlaengeVergleichen w = new WortlaengeVergleichen();
         w.compareLength("abc", "djgfkgze");
         w.compareLength("abcdfgh", "djg");
-        w.compareLength("abc", "djg");
+        w.compareLength("abc", "djg");*/
+
+        MehrfacheLeerzeichenEntfernen m = new MehrfacheLeerzeichenEntfernen();
+        m.removeTwoSpaces("Test  test hjskd test   test  test.");
 
     }
 }
