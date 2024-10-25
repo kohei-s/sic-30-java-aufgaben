@@ -98,8 +98,11 @@ public class Main {
         w.compareLength("abcdfgh", "djg");
         w.compareLength("abc", "djg");*/
 
-        MehrfacheLeerzeichenEntfernen m = new MehrfacheLeerzeichenEntfernen();
-        m.removeTwoSpaces("Test  test hjskd test   test  test.");
+        /*MehrfacheLeerzeichenEntfernen m = new MehrfacheLeerzeichenEntfernen();
+        m.removeTwoSpaces("Test  test hjskd test   test  test.");*/
+
+        BuchstabenVerschluesseln b = new BuchstabenVerschluesseln();
+        b.encryptCaeserCipher("abcd");
 
     }
 }
