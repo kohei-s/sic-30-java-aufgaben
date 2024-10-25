@@ -88,10 +88,15 @@ public class Main {
         /*TextersetzungInSaetzen tis = new TextersetzungInSaetzen();
         tis.replaceWords("Ich bin gestern zum Zahnarzt gegangen. Ich gehe morgen nochmals dahin.");*/
 
-        SynonymeFinden sf = new SynonymeFinden();
+        /*SynonymeFinden sf = new SynonymeFinden();
         sf.findSynonym("a");
         sf.findSynonym("b");
-        sf.findSynonym("c");
+        sf.findSynonym("c");*/
+
+        WortlaengeVergleichen w = new WortlaengeVergleichen();
+        w.compareLength("abc", "djgfkgze");
+        w.compareLength("abcdfgh", "djg");
+        w.compareLength("abc", "djg");
 
     }
 }
