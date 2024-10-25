@@ -75,11 +75,15 @@ public class Main {
         /*AbkuerzungenErkennen ae = new AbkuerzungenErkennen();
         ae.findAbbreviation("The U.S.A. is different from NASA and F.B.I. but not from e.g. or i.e.");*/
 
-        WortanfaengeSuchen w = new WortanfaengeSuchen();
+        /*WortanfaengeSuchen w = new WortanfaengeSuchen();
         String test = "The U.S.A. is different from NASA and F.B.I. but not from e.g. or i.e.";
         w.findWordStartWithParticularLetter(test, "a");
         w.findWordStartWithParticularLetter(test, "n");
-        w.findWordStartWithParticularLetter(test, "f");
+        w.findWordStartWithParticularLetter(test, "f");*/
+
+        HTMLTagEntfernen hte = new HTMLTagEntfernen();
+        String test = "The U.S.A. is <div> different from NASA <p> and F.B.I. but </p> not from e.g. or i.e.";
+        hte.removeHTMLTag(test);
 
     }
 }
